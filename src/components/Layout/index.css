@@ -1,0 +1,67 @@
+
+#root{overflow: hidden;}
+body{font-family: 'Roboto', sans-serif;}
+.header {padding: 0px;    background: #fff;}
+.ant-layout {background-color: white;}
+.ant-layout-header {height:auto;}
+.top-nav{background:#15192f;}
+.ant-layout-content{min-height: calc(100vh - 182px);    padding: 0 15px;}
+.ant-layout-footer {padding: 20px 50px;}
+
+.logo{display: flex;}
+.logo img{max-height: 50px;margin: 5px 0;}
+
+.menu {padding:0 10px;
+    background: var(--purple-color);
+    color: white;}
+.ant-menu-item:active, .ant-menu-item-selected {
+    color: white !important;
+    background: var(--green-color) !important;
+}
+.ant-menu-item:hover {
+    color: white !important;
+    background: var(--green-color) !important;
+}
+.ant-menu-item-selected::after, .ant-menu-item:hover::after {
+    border-bottom: none !important;
+}
+
+.ant-menu-horizontal>.ant-menu-item, .ant-menu-horizontal>.ant-menu-submenu{    line-height: 48px;}
+.ant-btn-primary{background-color:#d51635;border-color:#d51635;color:#fff!important;}
+.ant-btn-link, .ant-btn{color:#d51635;}
+.ant-btn-primary:hover{background-color: #15192f;border-color: #15192f;}
+.ant-btn-link{color:#15192f;}
+
+.ant-btn-background-ghost.ant-btn-primary {color: #d51635!important;border-color: #d51635;border-width: 2px;}
+
+.align-middle{align-items: center;display: flex!important;}
+.align-right{justify-content: end;display: flex!important;}
+.mt-0{margin-top:0}
+
+.header .ant-btn,.header .ant-switch,.header .ant-btn-group,.header .ant-input-search, .user-icon{margin-left:15px}
+.header .ant-input-search{width: 250px;background-color: #fafafa;border-radius: 30px;}
+.header .ant-input-search>.ant-input-group>.ant-input-group-addon:last-child {background-color: transparent;}
+.header .ant-input-search .ant-input-group-addon button{border: 0px solid red;margin: 0;
+    background-color: transparent;}
+.header .ant-input-search .ant-input-group .ant-input {max-width: 100%;border: 0px solid red;
+        background-color: transparent;}
+.header .ant-btn-group>.ant-btn:first-child{border-radius: 30px 0 0 30px!important;}
+.header .ant-btn-group>.ant-btn:last-child{border-radius:0 30px 30px 0!important;}
+.header .ant-btn-group>.ant-btn{padding: 4px 10px;}
+
+.user-icon .anticon{background-color:#d51635;color: #fff;}
+.user-icon .anticon.anticon-user{border-radius: 30px 0 0 30px;padding:10px 0 10px 10px;}
+.user-icon .anticon.anticon-down{border-radius: 0 30px 30px 0;padding:12px 10px 12px 0px;}
+
+.profile-nav{background-color: #fafafa;padding-top: 5px;}
+.profile-nav .ant-menu-horizontal>.ant-menu-item{color:#000;padding: 0 15px;margin-right:2px;line-height: 36px;}
+
+.ant-menu-horizontal>.ant-menu-item:after{right: 0px;bottom: 0;left: 0px;}
+.profile-nav .ant-menu-horizontal>.ant-menu-item.ant-menu-item-selected,
+.profile-nav .ant-menu-horizontal>.ant-menu-item:hover{color: #d51635!important;}
+
+.profile-nav .ant-menu-horizontal>.ant-menu-item.ant-menu-item-selected:after{
+    border-bottom: 2px solid #d51635!important;}
+
+.top-head, .content-block{padding: 0 10px;margin: 0 auto;}
+.inner-container{max-width: 1500px;margin: 0 auto;}

@@ -1,0 +1,22 @@
+
+.course, .round-cornors{border:1px solid rgba(0,0,0,0.1);border-radius: 10px;overflow: hidden;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);}
+.course-img{text-align: center;max-height: 150px;overflow: hidden;}
+.course-img img{max-width: 100%;}
+
+.course-info{padding: 0 15px 15px;}
+.course-info h4{font-weight: bold;}
+.course-info p{color:rgba(0,0,0,0.5);margin:0;font-size: 12px;}
+
+.request-status{text-align: center;background-color:rgba(33,35,188,0.1) ;font-size: 12px;padding:3px;
+    color:#d51635;}
+.stars span{color:#F8C704;margin-right: 2px;font-size: 14px;}
+.ant-progress-bg, .ant-progress-success-bg {background-color: #FC7601!important;}
+.ant-progress-status-success .ant-progress-bg {background-color: #52c41a!important;}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header{background-color:rgba(0,0,0,0.05) ;    
+    margin-bottom: 1px;line-height: 12px!important;}
+.search-courses .ant-checkbox-wrapper{width: 100%;margin-bottom: 5px;}
+.search-courses .ant-checkbox-wrapper+.ant-checkbox-wrapper {margin-left: 0px;}
+.search-courses{margin-bottom: 20px;}
+.anticon-star{color: #F8C704!important;}

@@ -1,0 +1,7 @@
+.messages{border:1px solid rgba(0,0,0,0.1)}
+.messages .class-event{padding: 5px;border-bottom:1px solid rgba(0,0,0,0.1);margin:0;}
+
+.message-details{border:1px solid rgba(0,0,0,0.1)}
+.message-header{background-color:rgba(0,0,0,0.05) ;}
+.message-header .class-event{margin:0;padding: 10px;}
+.message-content{padding:15px}

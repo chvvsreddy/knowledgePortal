@@ -1,0 +1,14 @@
+.circle, .circle-add{text-align: center;width:100px;display: inline-block;}
+.circle div, .circle-add div{width:35px;height:35px;border-radius:50%;background-color:#B20A43;color: #fff;
+    font-size:20px;display: inline-block;line-height: 34px;}
+.circles-block .circle div{width:50px;height:50px;line-height:50px;font-size:24px;}
+
+.user-side .circle{width:25%;}
+.circle-filter .ant-select{min-width:200px;margin-left: 10px;padding-bottom:20px;}
+
+.circles-block .circle:nth-child(2n) div{background-color:#06804F;}
+.circles-block .circle:nth-child(3n) div{background-color:#F1680E;}
+.circles-block .circle:nth-child(4n) div{background-color:#7B047E}
+.circle-add div{background-color:#f2f2f2!important;color: #000;border:2px dashed #ccc;}
+.circle-filter .ant-select-arrow{margin-top: -15px;}
+
